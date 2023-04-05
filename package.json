@@ -23,5 +23,8 @@
   "homepage": "https://github.com/LTUC/prep-challenges#readme",
   "dependencies": {
     "jest": "^27.4.7"
+  },
+  "devDependencies": {
+    "jest-cli": "^29.5.0"
   }
 }
