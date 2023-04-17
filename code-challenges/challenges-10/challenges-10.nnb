@@ -1,0 +1,67 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "## Hacker Rank\n\nFor Thursdays you will be solving some selected challenges on HackerRank, please create an account if you don't have then\nFollow the links below:\nread them carefully and solve them then copy-paste your solution below in Code Block"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "### **Required**:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "#####  [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true)\n\nSolution:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "'use strict';\n/*\n * Complete the 'birthdayCakeCandles' function below.\n *\n * The function is expected to return an INTEGER.\n * The function accepts INTEGER_ARRAY candles as parameter.\n */\n\nfunction birthdayCakeCandles(candles) {\n    // Write your code here\n    let max=candles[0],count=1;\n    for(let i=1; i<candles.length;i++){\n        if(candles[i]>max){\n            max=candles[i];\n            count =1;\n        }\n        else if (candles[i]==max){\n            count++;\n        }\n    }\n    return count;\n}\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "### **Optional**:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "#####  [Compare The Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true)\n\nSolution:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "'use strict';\n/*\n * Complete the 'compareTriplets' function below.\n *\n * The function is expected to return an INTEGER_ARRAY.\n * The function accepts following parameters:\n *  1. INTEGER_ARRAY a\n *  2. INTEGER_ARRAY b\n */\n\nfunction compareTriplets(a, b) {\n    let score =[0,0];\n    for(let i=0; i<a.length;i++){\n        if(a[i]>b[i]){\n            score[0]++;\n        }\n        else if(b[i]>a[i]){\n            score[1]++;\n        }\n        else continue;\n    }\n    return score;\n}\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "#####  [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true)\n\nSolution:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        }
+    ]
+}
